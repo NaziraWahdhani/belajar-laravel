@@ -6,5 +6,5 @@ return [
         "last" => env('NAME_LAST', "Khannedy")
     ],
     "email" => "echo.khannedy@gmail.com",
-    "web" => "https://www.programmerzamannow.com"
+    "web" => "https://www.programmerzamannowww.com"
 ];
