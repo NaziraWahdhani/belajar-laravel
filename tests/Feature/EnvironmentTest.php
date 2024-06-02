@@ -12,6 +12,8 @@
     {
         public function testGetEnv()
         {
+//            env adalah function bawaan dari laravel, jadi kita menggunakan integration test kalau menggunakan
+//            unit test biasa ngga bisa
             $youtube = env('YOUTUBE');
 
             self::assertEquals('Programmer Zaman Now', $youtube);
