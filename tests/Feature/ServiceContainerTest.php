@@ -21,11 +21,11 @@ class ServiceContainerTest extends TestCase
         self::assertNotSame($foo1, $foo2);
     }
 
-    public function testBind()
-    {
-       // $person = $this->app->make(Person::class); // new Person
-       // self::assertNotNull($person);
-
-
-    }
+//    public function testBind()
+//    {
+//       // $person = $this->app->make(Person::class); // new Person
+//       // self::assertNotNull($person);
+//
+//
+//    }
 }
