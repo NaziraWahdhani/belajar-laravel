@@ -26,6 +26,6 @@ class ServiceContainerTest extends TestCase
        // $person = $this->app->make(Person::class); // new Person
        // self::assertNotNull($person);
 
-        $this->app->bind();
+
     }
 }
