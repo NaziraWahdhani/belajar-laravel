@@ -3,7 +3,7 @@
 	namespace App\Data;
 	class Bar //class Bar difen ke class Foo
 	{
-        private Foo $foo;
+        public Foo $foo;
 
         public function __construct(Foo $foo) //constructor yang punya parameter foo
         {
